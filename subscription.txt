@@ -1,0 +1,4 @@
+#profile-title: itvpnfree
+#profile-update-interval: 1
+vless://0cf27b7c-dad2-4014-a084-d088e64c86d8@free-pl.moscow-neversleep.digital:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn.byteark.com&fp=firefox&pbk=zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M&sid=1ed136481e0ede74&type=tcp#🇵🇱 Польша
+vless://0cf27b7c-dad2-4014-a084-d088e64c86d8@free-nl.moscow-neversleep.digital:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn.byteark.com&fp=firefox&pbk=zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M&sid=1ed136481e0ede74&type=tcp#🇳🇱 Нидерланды
