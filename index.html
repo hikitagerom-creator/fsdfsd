@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Открываем Premium в Happ</title>
+  <style>
+    body{margin:0;background:#10131a;color:#fff;font:17px/1.45 system-ui,-apple-system,sans-serif;display:grid;min-height:100vh;place-items:center}
+    main{max-width:520px;padding:32px;text-align:center}
+    a,button{display:block;box-sizing:border-box;width:100%;margin:12px 0;padding:15px;border:0;border-radius:14px;background:#6558e8;color:#fff;font:inherit;font-weight:700;text-decoration:none}
+    button{background:#303541} p{color:#b8bfcc}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Открываем Premium в Happ…</h1>
+    <p>Если приложение не открылось автоматически, нажмите кнопку.</p>
+    <a id="open" href="#">Открыть в Happ</a>
+    <button id="copy" type="button">Скопировать ссылку подписки</button>
+    <p id="status"></p>
+  </main>
+  <script>
+    const subscription='https://raw.githubusercontent.com/hikitagerom-creator/fsdfsd/refs/heads/main/premium.txt';
+    const deeplink='happ://add/'+subscription;
+    document.getElementById('open').href=deeplink;
+    document.getElementById('copy').addEventListener('click',async()=>{
+      await navigator.clipboard.writeText(subscription);
+      document.getElementById('status').textContent='Ссылка скопирована. Откройте Happ и добавьте её из буфера обмена.';
+    });
+    setTimeout(()=>{location.href=deeplink;},150);
+  </script>
+</body>
+</html>
