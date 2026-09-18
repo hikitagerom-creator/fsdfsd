@@ -2,7 +2,7 @@ name: Premium subscription renewals
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "15 3 * * *"
   workflow_dispatch:
 
 permissions:
