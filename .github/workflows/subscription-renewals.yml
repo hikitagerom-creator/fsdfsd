@@ -1,0 +1,30 @@
+name: Premium subscription renewals
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: premium-subscription-renewals
+  cancel-in-progress: false
+
+jobs:
+  renew:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check payments and renew subscriptions
+        env:
+          TASK_SECRET: ${{ secrets.SUBSCRIPTION_TASK_SECRET }}
+        run: |
+          set -euo pipefail
+          test -n "${TASK_SECRET}"
+          curl --fail-with-body --show-error --silent \
+            --retry 3 --retry-all-errors --retry-delay 10 \
+            --connect-timeout 30 --max-time 420 \
+            -X POST "https://itvpn.pythonanywhere.com/tasks/subscriptions" \
+            -H "X-ITVPN-Task-Secret: ${TASK_SECRET}"
