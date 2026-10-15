@@ -18,24 +18,6 @@ vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@212.115.52.4:7443?encryption=none&f
 🇳🇱 Netherlands
 vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@191.217.214.9:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ligastavok.ru&fp=qq&pbk=eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI&sid=ad7dab462a323acb#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands%20
 
-🇬🇧 United Kingdom 25gbps
-vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@46.33.11.154:2443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=zadonat.net&fp=qq&pbk=eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI&sid=ad7dab462a323acb#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2025gbps
-
-🇬🇧 United Kingdom 2
-vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@94.183.179.252:7443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ligastavok.ru&fp=qq&pbk=eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI&sid=ad7dab462a323acb#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%202
-
-🇮🇹 Italy 10Gbps
-vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@31.59.180.72:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=duckduckgo.com&fp=qq&pbk=eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI&sid=ad7dab462a323acb#%F0%9F%87%AE%F0%9F%87%B9Italy%2010Gbps
-
-🇱🇹 Lithuania
-vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@139.28.233.198:7443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ligastavok.ru&fp=qq&pbk=eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI&sid=ad7dab462a323acb#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania
-
-🇵🇱 Poland 10gbps
-vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@31.59.211.199:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=duckduckgo.com&fp=qq&pbk=eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI&sid=ad7dab462a323acb#%F0%9F%87%B5%F0%9F%87%B1%20Poland%2010gbps
-
-🇩🇪 Germany 10gbps
-vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@31.59.179.112:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=duckduckgo.com&fp=qq&pbk=eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI&sid=ad7dab462a323acb#%20%F0%9F%87%A9%F0%9F%87%AA%20%20Germany%2010gbps%20
-
 🇩🇪 Germany 10gbps ^~2~^
 vless://1d37218c-eff9-4f4a-8f2b-9cf87b41a955@31.77.153.62:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=duckduckgo.com&fp=qq&pbk=eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI&sid=ad7dab462a323acb#%20%F0%9F%87%A9%F0%9F%87%AA%20%20Germany%2010gbps%20%20%5E~2~%5E
 
